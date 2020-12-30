@@ -1,0 +1,28 @@
+random-read-4KB-1Thread: (g=0): rw=randread, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=posixaio, iodepth=1
+fio-3.16
+Starting 1 process
+random-read-4KB-1Thread: Laying out IO file (1 file / 1024MiB)
+
+random-read-4KB-1Thread: (groupid=0, jobs=1): err= 0: pid=1292739: Wed Dec 30 10:15:24 2020
+  read: IOPS=84.1k, BW=328MiB/s (344MB/s)(1024MiB/3118msec)
+    slat (nsec): min=330, max=124944, avg=992.69, stdev=334.50
+    clat (usec): min=4, max=176, avg=10.57, stdev= 7.58
+     lat (usec): min=5, max=230, avg=11.56, stdev= 7.60
+    clat percentiles (nsec):
+     |  1.00th=[ 5472],  5.00th=[ 5920], 10.00th=[ 6112], 20.00th=[ 6368],
+     | 30.00th=[ 6624], 40.00th=[ 6752], 50.00th=[ 6944], 60.00th=[ 7136],
+     | 70.00th=[ 7456], 80.00th=[22656], 90.00th=[25216], 95.00th=[25984],
+     | 99.00th=[27776], 99.50th=[28544], 99.90th=[31104], 99.95th=[32384],
+     | 99.99th=[42240]
+   bw (  KiB/s): min=314784, max=388806, per=98.10%, avg=329912.50, stdev=29113.06, samples=6
+   iops        : min=78696, max=97201, avg=82478.00, stdev=7278.08, samples=6
+  lat (usec)   : 10=79.55%, 20=0.25%, 50=20.20%, 100=0.01%, 250=0.01%
+  cpu          : usr=7.19%, sys=18.54%, ctx=262193, majf=1, minf=45
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=262144,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=328MiB/s (344MB/s), 328MiB/s-328MiB/s (344MB/s-344MB/s), io=1024MiB (1074MB), run=3118-3118msec

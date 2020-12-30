@@ -1,0 +1,31 @@
+random-read-4KB-8Thread: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=posixaio, iodepth=1
+...
+fio-3.16
+Starting 8 processes
+
+random-read-4KB-8Thread: (groupid=0, jobs=8): err= 0: pid=1312326: Wed Dec 30 10:16:19 2020
+  write: IOPS=15.8k, BW=61.9MiB/s (64.9MB/s)(620MiB/10010msec); 0 zone resets
+    slat (nsec): min=491, max=17362k, avg=2880.53, stdev=64680.49
+    clat (usec): min=12, max=72355, avg=499.83, stdev=955.55
+     lat (usec): min=13, max=72357, avg=502.71, stdev=960.02
+    clat percentiles (usec):
+     |  1.00th=[   22],  5.00th=[   47], 10.00th=[   75], 20.00th=[  225],
+     | 30.00th=[  330], 40.00th=[  388], 50.00th=[  433], 60.00th=[  469],
+     | 70.00th=[  515], 80.00th=[  570], 90.00th=[  693], 95.00th=[ 1254],
+     | 99.00th=[ 2040], 99.50th=[ 2671], 99.90th=[14353], 99.95th=[17171],
+     | 99.99th=[40109]
+   bw (  KiB/s): min=44656, max=174355, per=99.92%, avg=63327.63, stdev=3460.30, samples=158
+   iops        : min=11164, max=43588, avg=15831.66, stdev=865.07, samples=158
+  lat (usec)   : 20=0.78%, 50=5.38%, 100=6.31%, 250=9.24%, 500=44.90%
+  lat (usec)   : 750=24.83%, 1000=1.71%
+  lat (msec)   : 2=5.78%, 4=0.75%, 10=0.15%, 20=0.13%, 50=0.03%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=0.94%, sys=0.70%, ctx=164610, majf=0, minf=365
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=0,158604,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+  WRITE: bw=61.9MiB/s (64.9MB/s), 61.9MiB/s-61.9MiB/s (64.9MB/s-64.9MB/s), io=620MiB (650MB), run=10010-10010msec

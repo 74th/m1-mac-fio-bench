@@ -1,0 +1,28 @@
+sequencial-read: (g=0): rw=read, bs=(R) 20.0MiB-20.0MiB, (W) 20.0MiB-20.0MiB, (T) 20.0MiB-20.0MiB, ioengine=posixaio, iodepth=1
+fio-3.16
+Starting 1 process
+sequencial-read: Laying out IO file (1 file / 30720MiB)
+
+sequencial-read: (groupid=0, jobs=1): err= 0: pid=1279384: Wed Dec 30 10:15:08 2020
+  read: IOPS=102, BW=2046MiB/s (2146MB/s)(20.0GiB/10009msec)
+    slat (nsec): min=1653, max=2595.3k, avg=7181.28, stdev=80964.16
+    clat (usec): min=7944, max=70956, avg=9758.64, stdev=5956.18
+     lat (usec): min=7947, max=73551, avg=9765.82, stdev=5982.73
+    clat percentiles (usec):
+     |  1.00th=[ 8094],  5.00th=[ 8291], 10.00th=[ 8356], 20.00th=[ 8455],
+     | 30.00th=[ 8717], 40.00th=[ 8848], 50.00th=[ 8979], 60.00th=[ 9110],
+     | 70.00th=[ 9241], 80.00th=[ 9372], 90.00th=[ 9765], 95.00th=[11600],
+     | 99.00th=[47973], 99.50th=[66847], 99.90th=[70779], 99.95th=[70779],
+     | 99.99th=[70779]
+   bw (  MiB/s): min=  320, max= 2400, per=99.99%, avg=2046.00, stdev=495.07, samples=20
+   iops        : min=   16, max=  120, avg=102.30, stdev=24.75, samples=20
+  lat (msec)   : 10=91.50%, 20=7.23%, 50=0.29%, 100=0.98%
+  cpu          : usr=0.23%, sys=0.00%, ctx=1029, majf=8, minf=47
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=1024,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=2046MiB/s (2146MB/s), 2046MiB/s-2046MiB/s (2146MB/s-2146MB/s), io=20.0GiB (21.5GB), run=10009-10009msec
