@@ -1,0 +1,98 @@
+random-read-4KB-64Thread: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=posixaio, iodepth=1
+...
+fio-3.16
+Starting 64 processes
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+random-read-4KB-64Thread: Laying out IO file (1 file / 1024MiB)
+
+random-read-4KB-64Thread: (groupid=0, jobs=64): err= 0: pid=14765: Wed Dec 30 10:00:33 2020
+  write: IOPS=6312, BW=24.7MiB/s (25.9MB/s)(274MiB/11093msec); 0 zone resets
+    slat (nsec): min=681, max=37758k, avg=6679.81, stdev=181085.05
+    clat (usec): min=108, max=4055.0k, avg=10119.79, stdev=169418.87
+     lat (usec): min=322, max=4055.0k, avg=10126.47, stdev=169419.95
+    clat percentiles (usec):
+     |  1.00th=[   1172],  5.00th=[   1500], 10.00th=[   1729],
+     | 20.00th=[   2040], 30.00th=[   2278], 40.00th=[   2474],
+     | 50.00th=[   2671], 60.00th=[   2900], 70.00th=[   3163],
+     | 80.00th=[   3556], 90.00th=[   4146], 95.00th=[   4817],
+     | 99.00th=[   7177], 99.50th=[   9110], 99.90th=[3909092],
+     | 99.95th=[4043310], 99.99th=[4043310]
+   bw (  KiB/s): min= 4587, max=95678, per=100.00%, avg=62150.11, stdev=615.09, samples=576
+   iops        : min= 1137, max=23919, avg=15533.11, stdev=153.80, samples=576
+  lat (usec)   : 250=0.01%, 500=0.03%, 750=0.08%, 1000=0.26%
+  lat (msec)   : 2=18.07%, 4=69.64%, 10=11.49%, 20=0.22%, 50=0.01%
+  lat (msec)   : 100=0.01%, >=2000=0.18%
+  cpu          : usr=0.17%, sys=0.20%, ctx=116009, majf=0, minf=2833
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=0,70020,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+  WRITE: bw=24.7MiB/s (25.9MB/s), 24.7MiB/s-24.7MiB/s (25.9MB/s-25.9MB/s), io=274MiB (287MB), run=11093-11093msec
+
+Disk stats (read/write):
+  sda: ios=0/69964, merge=0/1137, ticks=0/396274, in_queue=396278, util=64.51%
